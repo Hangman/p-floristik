@@ -1,0 +1,61 @@
+{% include head-image.html %}
+
+<div class="content-frame">
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+
+  {% if page.important-note %}
+  <p class="important-note">{{ page.important-note }}</p>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  {% endif %}
+
+  <div class="centered-container text-block">
+    <p>{{ page.intro-text }}</p>
+  </div>
+
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+</div>
+
+<div class="dark-bg">
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+
+  <div class="content-frame">
+    <div class="card card-style">
+      <div class="card-body">
+        <h3 class="center-text">Unsere Leistungen im Überblick</h3>
+        <hr />
+        <div class="centered-container">
+          <div class="big-grid-container">
+            {% for service in page.services %}
+            <div>
+              <img class="filter-blue" src="{{ site.baseurl }}/assets/images/check.svg" alt="checkmark icon" />
+              <i>{{ service }}</i>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+</div>
