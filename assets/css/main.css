@@ -360,6 +360,26 @@ summary {
   font-weight: 700;
 }
 
+#navbar-link-6 {
+  color: var(--color-heading);
+  border-radius: var(--default-border-radius);
+  transition: font-size 0.5s ease;
+}
+
+#navbar-link-6:hover {
+  font-weight: 700;
+}
+
+#navbar-link-7 {
+  color: var(--color-heading);
+  border-radius: var(--default-border-radius);
+  transition: font-size 0.5s ease;
+}
+
+#navbar-link-7:hover {
+  font-weight: 700;
+}
+
 .flex-horizontal {
   display: flex;
   flex-wrap: wrap;
@@ -549,6 +569,11 @@ summary {
   border-radius: var(--default-border-radius);
 }
 
+.home-carousel-image {
+  height: 600px;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 830px) {
   h1 {
     font-size: 45px;
@@ -637,5 +662,9 @@ summary {
   .footer-content-container {
     row-gap: 30px;
     column-gap: 50px;
+  }
+
+  .home-carousel-image {
+    height: 400px;
   }
 }
