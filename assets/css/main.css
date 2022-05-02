@@ -472,6 +472,33 @@ summary {
   position: relative;
 }
 
+.head-image-hochzeit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/hochzeit.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.head-image-team {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/team.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.head-image-impressum {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/impressum.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .head-image-text {
   text-align: center;
   position: absolute;
@@ -581,6 +608,14 @@ summary {
   }
 
   .head-image-trauer {
+    height: 250px;
+  }
+
+  .head-image-hochzeit {
+    height: 250px;
+  }
+
+  .head-image-team {
     height: 250px;
   }
 

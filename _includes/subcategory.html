@@ -20,13 +20,16 @@
     <p>{{ page.intro-text }}</p>
   </div>
 
+  {% if page.services %}
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
+  {% endif %}
 </div>
 
+{% if page.services %}
 <div class="dark-bg">
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
@@ -59,3 +62,4 @@
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
 </div>
+{% endif %}
