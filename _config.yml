@@ -23,7 +23,7 @@ title: Prein Floristik
 description: >-
   Prein Floristik
 repository: Hangman/p-floristik
-baseurl: ""
+baseurl: "https://hangman.github.io/p-floristik"
 url: "https://hangman.github.io/p-floristik"
 github_username: Hangman
 
