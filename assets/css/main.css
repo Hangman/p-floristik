@@ -475,7 +475,7 @@ summary {
 }
 
 .head-image-garten {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/garten.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/garten/garten.jpg");
   height: 350px;
   background-position: center;
   background-repeat: no-repeat;
@@ -545,6 +545,13 @@ summary {
 
 .before-after-image-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.before-after-image {
+  width: 500px;
+  height: auto;
 }
 
 .before-after-image-caption-left {
@@ -606,6 +613,7 @@ summary {
 
   .h-spacer {
     min-height: 5px;
+    max-height: 5px;
     width: 100%;
   }
 
@@ -666,5 +674,14 @@ summary {
 
   .home-carousel-image {
     height: 400px;
+  }
+
+  .before-after-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .before-after-image-container {
+    width: 90%;
   }
 }
