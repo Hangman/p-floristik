@@ -19,4 +19,5 @@ services:
     "Gehölzschnitt",
     "Roden und Fällen",
   ]
+services-grid-container: "big-grid-container"
 ---

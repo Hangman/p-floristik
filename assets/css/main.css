@@ -10,7 +10,7 @@
   --color-heading: var(--color-blue);
   --color-box: #DAE8D5;
   --color-bg: #FFFFFF;
-  --color-dark-bg: #f7f7f7;
+  --color-dark-bg: #ebebeb;
   --default-border-radius: 4px;
 }
 
@@ -287,7 +287,18 @@ summary {
   row-gap: 2vw;
 }
 
+.small-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10vw;
+  row-gap: 2vw;
+}
+
 .big-grid-container i {
+  font-style: italic;
+}
+
+.small-grid-container i {
   font-style: italic;
 }
 
@@ -492,6 +503,15 @@ summary {
   position: relative;
 }
 
+.head-image-friedhof {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/friedhof.jpg");
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .head-image-hochzeit {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/hochzeit.jpg");
   height: 350px;
@@ -603,8 +623,8 @@ summary {
   }
 
   .content-frame {
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .card-width {
@@ -644,6 +664,10 @@ summary {
     height: 250px;
   }
 
+  .head-image-friedhof {
+    height: 250px;
+  }
+
   .head-image-hochzeit {
     height: 250px;
   }
@@ -664,7 +688,13 @@ summary {
   .big-grid-container {
     column-gap: 10vw;
     row-gap: 2vw;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
+  }
+
+  .small-grid-container {
+    grid-template-columns: auto;
+    column-gap: 10vw;
+    row-gap: 2vw;
   }
 
   .footer-content-container {

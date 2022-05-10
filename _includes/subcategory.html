@@ -30,11 +30,6 @@
 </div>
 
 {% if page.services %}
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
 
 <div class="content-frame">
   <div class="card card-style">
@@ -42,7 +37,7 @@
       <h3 class="center-text">Unsere Leistungen im Überblick</h3>
       <hr />
       <div class="centered-container">
-        <div class="big-grid-container">
+        <div class="{{ page.services-grid-container }}">
           {% for service in page.services %}
           <div>
             <img class="filter-blue" src="{{ site.baseurl }}/assets/images/check.svg" alt="checkmark icon" />
