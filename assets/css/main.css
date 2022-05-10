@@ -240,6 +240,12 @@ summary {
   margin: auto;
 }
 
+.wide-frame {
+  display: block;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 .text-block {
   text-align: center;
   max-width: 800px;
