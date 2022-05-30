@@ -264,6 +264,7 @@ summary {
 
 .opening-hours-container {
   background: url("{{ site.baseurl }}/assets/images/opening-hours-bg.jpeg") no-repeat;
+  background-size: cover;
 }
 
 .opening-hours-block {

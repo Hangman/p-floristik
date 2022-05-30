@@ -4,8 +4,16 @@ title: "Floristik"
 head-image-title: "Floristik"
 head-image-text: "Schnittblumen, Topfpflanzen, Deko und mehr"
 head-image-style-class: "head-image-floristik"
-intro-text: "Intro Text Floristik. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-important-note: "Wir liefern nach RE-Hochlar und Herten-Disteln."
-services: ["Schnittblumen", "Topfpflanzen", "Dekorationen"]
+intro-text: "In unserem Betrieb legen wir großen Wert auf eine freundliche und individuelle Beratung. Die Verarbeitung von natürlichen Materialien und regionalen Pflanzen ist uns wichtig."
+important-note: "Wir liefern nach Recklinghausen und Herten."
+services: ["Sträuße", "Gestecke", "Kränze", "Topfpflanzen", "Raumdeko", "Geschenkartikel", "Dekoartikel", "Pflanzgefäße, Körbe"]
+services2:
+  [
+    "Lieferservice für RE und Herten",
+    "Bepflanzung von Balkonkästen und Gefäßen",
+    "Geschenkverpackungen",
+    "Telefonische Vorbestellung",
+    "Abholung außerhalb der Öffnungszeiten",
+  ]
 services-grid-container: "big-grid-container"
 ---
