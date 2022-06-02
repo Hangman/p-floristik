@@ -16,11 +16,15 @@
   <div class="h-spacer"></div>
   {% endif %}
 
+  <!-- prettier-ignore -->
+  {{% if page.intro-text %}}
   <div class="centered-container text-block">
     <p>{{ page.intro-text }}</p>
   </div>
+  {{% endif %}}
 
-  {% if page.services %}
+  <!-- prettier-ignore -->
+  {% if page.services and page.intro-text %}
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
