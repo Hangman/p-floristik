@@ -2,11 +2,8 @@
 layout: home
 title: "Home"
 
-news-title: "Ostern steht vor der Tür"
-news-text:
-  "Hier könnten eine kleine Einleitung zum Betrieb, ein Grußwort oder kleine Neuigkeiten / Ankündigungen stehen, die sofort im Blickfeld landen sollen. Beispielsweise der Osterverkauf, Weihnachtsverkauf oder dergleichen. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-  aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-  Lorem ipsum dolor sit amet."
+news-title: "Herzlich Willkommen"
+news-text: "Schön, dass Sie uns auf unserer Seite besuchen! In unserem Betrieb dreht sich alles um das Thema Pflanzen: Vom Blumenstrauß bis zur vollständigen Neugestaltung Ihres Gartens ist unser Familienbetrieb seit Jahrzehnten gern Ansprechpartner für Sie."
 
 card1-title: "Blumen & Pflanzen"
 card1-image: "bouquet.jpg"
