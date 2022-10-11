@@ -3,7 +3,9 @@
 
 :root {
   --color-white: #FFFFFF;
+  --color-black: #000000;
   --color-blue: #345995;
+  --color-blue-bright: #3e6bb3;
   --color-green: #3C841F;
   --color-transparent-block: #345995E0;
   --color-transparent: #00000000;
@@ -192,6 +194,22 @@ h4 {
 
 a {
   color: var(--color-blue);
+}
+
+button {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 3px solid var(--color-transparent);
+}
+
+button:hover {
+  background-color: var(--color-blue-bright);
+  border: 3px solid var(--color-blue);
 }
 
 summary {

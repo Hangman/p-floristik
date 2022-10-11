@@ -1,17 +1,15 @@
 <div class="mapouter">
   <div class="gmap_canvas">
-    <iframe
-      width="100%"
-      height="500"
-      id="gmap_canvas"
-      src="https://maps.google.com/maps?q=prein%20floristik&t=&z=13&ie=UTF8&iwloc=&output=embed"
-      frameborder="0"
-      scrolling="no"
-      marginheight="0"
-      marginwidth="0"
-      loading="lazy"
-    ></iframe
-    ><br /><style>
+    <button
+      id="gmaps_button"
+      onClick='document.getElementById("gmap_canvas").src="https://maps.google.com/maps?q=prein%20floristik&t=&z=13&ie=UTF8&iwloc=&output=embed";
+               document.getElementById("gmaps_button").style.display = "none";'
+      style="position: absolute; left: 50%; top: 50%; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); transform: translateX(-50%)"
+    >
+      Klicken Sie hier, um der Nutzung von Google Maps zuzustimmen.
+    </button>
+
+    <iframe width="100%" height="500" id="gmap_canvas" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" loading="lazy"></iframe><br /><style>
       .mapouter {
         position: relative;
         text-align: right;
@@ -22,7 +20,8 @@
     ><style>
       .gmap_canvas {
         overflow: hidden;
-        background: none !important;
+        background-image: url("{{ site.baseurl }}/assets/images/maps_cover.png");
+        background-size: cover;
         height: 500px;
         width: 100%;
       }
