@@ -260,8 +260,17 @@ summary {
 }
 
 .text-block {
-  text-align: center;
-  max-width: 800px;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.text-block p {
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 500;
   margin: auto;
 }
 
@@ -633,7 +642,7 @@ summary {
 }
 
 .home-carousel-image {
-  height: 600px;
+  height: 700px;
   object-fit: cover;
 }
 
@@ -683,9 +692,20 @@ summary {
   }
 
   .text-block {
-    text-align: justify;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
     padding-left: 5%;
     padding-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .text-block p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    margin: auto;
   }
 
   .head-image-floristik {
