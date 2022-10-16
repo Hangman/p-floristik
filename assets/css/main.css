@@ -481,6 +481,11 @@ summary {
   border-radius: var(--default-border-radius);
 }
 
+.gallery-card {
+  width: 370px;
+  cursor: pointer;
+}
+
 .footer-container {
   background-color: var(--color-box);
 }
@@ -665,6 +670,11 @@ summary {
 
   hr {
     border: 2px solid var(--color-green);
+  }
+
+  .gallery-card {
+    width: 350px;
+    cursor: pointer;
   }
 
   .content-frame {
