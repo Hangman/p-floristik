@@ -472,7 +472,7 @@ summary {
 }
 
 .card-width {
-  width: 30rem;
+  width: 20rem;
 }
 
 .card-style {
@@ -680,10 +680,6 @@ summary {
   .content-frame {
     margin-left: 2%;
     margin-right: 2%;
-  }
-
-  .card-width {
-    width: 90%;
   }
 
   .h-spacer {
