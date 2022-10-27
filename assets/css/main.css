@@ -420,6 +420,10 @@ summary {
   font-weight: 700;
 }
 
+.my-modal-width {
+  max-width: 1340px;
+}
+
 .my-button {
   color: var(--color-white);
   background-color: var(--color-blue);
