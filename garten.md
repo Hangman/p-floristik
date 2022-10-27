@@ -4,7 +4,12 @@ title: "Garten"
 head-image-title: "Garten- und Landschaftsbau"
 head-image-text: "Planung, Bau und Pflege"
 head-image-style-class: "head-image-garten"
-intro-text: "Intro Text Garten. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+intro-text: "Mit allen Sinnen genießen. Wir verlängern Ihr Wochenende, Ihren Urlaub, Ihre schönsten Stunden. Gestalten
+Sie Ihren Garten zum Beispiel zu Ihrem Erlebnisort, zu Ihrer Wohlfühloase oder zu Ihrem ganz persönlichen Rückzugsort.
+Gemeinsam erarbeiten wir nach Ihren Wünschen und Vorstellungen ein Konzept, das Sie zum Ziel bringt. Sie werden
+überrascht sein was selbst in kleinen Gärten durch clevere Gestaltung und passende Pflanzen möglich ist. Lassen Sie sich
+von einem Profi an die Hand nehmen, der seit über 30 Jahren mit Herzblut und Leidenschaft für seinen Beruf - Ihren Garten - lebt.<br>
+"
 services:
   [
     "Neu- und Umgestaltung",
