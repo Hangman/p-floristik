@@ -251,6 +251,10 @@ summary {
   cursor: pointer;
 }
 
+.accordion-header {
+  background-color: var(--color-box);
+}
+
 .accordion-item-title {
   color: var(--color-blue);
   font-size: 24px;
