@@ -12,17 +12,9 @@ von einem Profi an die Hand nehmen, der seit über 30 Jahren mit Herzblut und Le
 "
 services:
   [
-    "Neu- und Umgestaltung",
-    "Pflasterarbeiten",
-    "Holzterrassen",
-    "Bewässerungssysteme",
-    "Installation von Mährobotern",
-    "Teichanlagen",
-    "Quellsteine",
-    "Beleuchtung",
-    "professionelle Gartenpflege",
-    "Gehölzschnitt",
-    "Roden und Fällen",
+    "Planung & Gestaltung",
+    "Professionelle Gartenpflege",
+    "Technische Arbeiten",
   ]
 services-grid-container: "big-grid-container"
 ---

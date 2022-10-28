@@ -240,6 +240,27 @@ summary {
   line-height: 50px;
 }
 
+.accordion-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.accordion-item-title {
+  color: var(--color-blue);
+  font-size: 24px;
+}
+
+.accordion-image {
+  width: 40px;
+  height: 40px;
+}
+
 .centered-container {
   display: flex;
   justify-content: center;
@@ -558,7 +579,7 @@ summary {
 }
 
 .head-image-friedhof {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/friedhof.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ site.baseurl }}/assets/images/friedhof/friedhof.jpg");
   height: 350px;
   background-position: center;
   background-repeat: no-repeat;
@@ -674,6 +695,15 @@ summary {
 
   hr {
     border: 2px solid var(--color-green);
+  }
+
+  .accordion-item-title {
+    font-size: 18px;
+  }
+  
+  .accordion-image {
+    width: 30px;
+    height: 30px;
   }
 
   .gallery-card {

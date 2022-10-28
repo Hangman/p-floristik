@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,0,2.78543)">
+        <g transform="matrix(2.03987,0,0,2.03987,-48.7019,-61.4789)">
+            <g>
+                <g transform="matrix(1,0,0,1,-0.0788703,-0.0792811)">
+                    <circle cx="41.456" cy="62.86" r="1.893" style="fill:none;stroke:black;stroke-width:0.82px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,6.23075,-0.0792811)">
+                    <circle cx="41.456" cy="62.86" r="1.893" style="fill:none;stroke:black;stroke-width:0.82px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,12.5404,-0.0792811)">
+                    <circle cx="41.456" cy="62.86" r="1.893" style="fill:none;stroke:black;stroke-width:0.82px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,18.85,-0.0792811)">
+                    <circle cx="41.456" cy="62.86" r="1.893" style="fill:none;stroke:black;stroke-width:0.82px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,25.1333,-0.0792811)">
+                    <circle cx="41.456" cy="62.86" r="1.893" style="fill:none;stroke:black;stroke-width:0.82px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1.12394,0,0,1,-7.24047,0)">
+                <path d="M69.606,62.781C69.606,60.627 68.05,58.879 66.134,58.879L42.834,58.879C40.918,58.879 39.362,60.627 39.362,62.781C39.362,64.935 40.918,66.683 42.834,66.683L66.134,66.683C68.05,66.683 69.606,64.935 69.606,62.781Z" style="fill:none;stroke:black;stroke-width:1.73px;"/>
+            </g>
+            <path d="M42.051,50L39.484,52.567L39.484,55.447L67.667,55.447L67.667,34.204L54.258,34.204L48.692,39.77L48.692,50L42.051,50ZM63.263,47.381L63.263,38.712L55.904,38.712L52.849,41.767L52.849,47.381L63.263,47.381Z" style="stroke:black;stroke-width:0.82px;"/>
+            <circle cx="27.691" cy="38.827" r="3.317" style="stroke:black;stroke-width:0.2px;"/>
+            <g transform="matrix(1.02426,-1.02426,0.842945,0.842945,-11.8543,48.9597)">
+                <rect x="22.772" y="19.243" width="2.958" height="14.213" style="stroke:black;stroke-width:0.15px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1.15842,6.25417,-7.67446)">
+                <rect x="19.937" y="42.145" width="2.999" height="10.372" style="stroke:black;stroke-width:0.19px;"/>
+            </g>
+            <path d="M26.191,53.162L29.19,53.162L29.19,56.953C29.23,58.245 29.891,58.626 31.008,58.339C32.67,58.068 33.628,56.816 34.106,54.893C34.983,55.922 35.211,57.31 34.725,59.093C34.443,59.985 33.822,60.493 33.002,60.775L27.308,60.829C26.368,60.666 26.234,60.041 26.191,59.16L26.191,53.162Z" style="stroke:black;stroke-width:0.2px;"/>
+            <g transform="matrix(0.381443,0,0,1.10483,43.5294,-5.57307)">
+                <path d="M75.685,33.767C75.685,33.388 74.793,33.08 73.693,33.08C72.593,33.08 71.701,33.388 71.701,33.767L71.701,52.474C71.701,52.854 72.593,53.162 73.693,53.162C74.793,53.162 75.685,52.854 75.685,52.474L75.685,33.767Z" style="stroke:black;stroke-width:0.99px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0,0.0292494)">
+                <path d="M72.399,52.78C72.399,52.585 72.241,52.427 72.047,52.427L64.782,52.427C64.588,52.427 64.43,52.585 64.43,52.78L64.43,53.485C64.43,53.68 64.588,53.838 64.782,53.838L72.047,53.838C72.241,53.838 72.399,53.68 72.399,53.485L72.399,52.78Z" style="stroke:black;stroke-width:0.82px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,0.775098,5.93709)">
+            <rect x="1.017" y="77.079" width="96.415" height="9.708" style="stroke:black;stroke-width:1.67px;"/>
+        </g>
+    </g>
+</svg>
