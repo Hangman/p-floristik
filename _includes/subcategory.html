@@ -1,39 +1,13 @@
 {% include head-image.html %}
 
-<div class="content-frame">
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-
-  {% if page.important-note %}
-  <p class="important-note">{{ page.important-note }}</p>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  {% endif %}
-
-  <!-- prettier-ignore -->
-  {{% if page.intro-text %}}
-  <div class="centered-container text-block">
-    <p>{{ page.intro-text }}</p>
-  </div>
-  {{% endif %}}
-
-  <!-- prettier-ignore -->
-  {% if page.services and page.intro-text %}
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  {% endif %}
-</div>
-
+<!-- prettier-ignore -->
 {% if page.services %}
+<div class="h-spacer"></div>
+<div class="h-spacer"></div>
+<div class="h-spacer"></div>
+<div class="h-spacer"></div>
+<div class="h-spacer"></div>
+
 <div class="content-frame">
   <div class="card card-style">
     <div class="card-body">
@@ -52,13 +26,37 @@
     </div>
   </div>
 </div>
-
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
 {% endif %}
+
+<div class="content-frame">
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+
+  <!-- prettier-ignore -->
+  {{% if page.intro-text %}}
+  <div class="centered-container text-block">
+    <p>{{ page.intro-text }}</p>
+  </div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  {{% endif %}}
+
+  <!-- prettier-ignore -->
+  {% if page.important-note %}
+  <p class="important-note">{{ page.important-note }}</p>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  {% endif %}
+</div>
 
 <!-- prettier-ignore -->
 {% if page.services2 %}
