@@ -11,10 +11,6 @@ function changeCss () {
     var link1 = document.getElementById("navbar-link-1");
     var link2 = document.getElementById("navbar-link-2");
     var link3 = document.getElementById("navbar-link-3");
-    var link4 = document.getElementById("navbar-link-4");
-    var link5 = document.getElementById("navbar-link-5");
-    var link6 = document.getElementById("navbar-link-6");
-    var link7 = document.getElementById("navbar-link-7");
 
     var isMobile = false;
     if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent) 
@@ -30,10 +26,6 @@ function changeCss () {
             link1.style.fontSize = newFontSize;
             link2.style.fontSize = newFontSize;
             link3.style.fontSize = newFontSize;
-            link4.style.fontSize = newFontSize;
-            link5.style.fontSize = newFontSize;
-            link6.style.fontSize = newFontSize;
-            link7.style.fontSize = newFontSize;
         } else if (this.scrollY < 10) {
             container.style.borderBottom = "0px solid #3C841F00";
             logo.style.width = oldLogoWidth;
@@ -41,10 +33,6 @@ function changeCss () {
             link1.style.fontSize = oldFontSize;
             link2.style.fontSize = oldFontSize;
             link3.style.fontSize = oldFontSize;
-            link4.style.fontSize = oldFontSize;
-            link5.style.fontSize = oldFontSize;
-            link6.style.fontSize = oldFontSize;
-            link7.style.fontSize = oldFontSize;
         }
     }
 }

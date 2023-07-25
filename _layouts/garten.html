@@ -6,6 +6,8 @@ layout: default
 <!-- -->
 {% include garten-carousel.html %}
 
+<script src="{{ site.baseurl }}/assets/js/garten.js"></script>
+
 <div class="dark-bg">
   <div class="h-spacer"></div>
   <div class="h-spacer"></div>
@@ -19,7 +21,7 @@ layout: default
           <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/buildicon.svg" alt="Icon Bagger" />
-              <p class="accordion-item-title">Neu- und Umgestaltung</p>
+              <p id="neuundumgestaltung" class="accordion-item-title">Neu- und Umgestaltung</p>
             </div>
           </div>
         </div>
@@ -40,7 +42,7 @@ layout: default
           <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/pondicon.svg" alt="Icon Teich" />
-              <p class="accordion-item-title">Wasser im Garten</p>
+              <p id="wasserimgarten" class="accordion-item-title">Wasser im Garten</p>
             </div>
           </div>
         </div>
@@ -60,7 +62,7 @@ layout: default
           <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/terraceicon.svg" alt="Icon Terrasse" />
-              <p class="accordion-item-title">Pflasterarbeiten und Steinterrassen</p>
+              <p id="pflasterarbeitenundsteinterrassen" class="accordion-item-title">Pflasterarbeiten und Steinterrassen</p>
             </div>
           </div>
         </div>
@@ -79,7 +81,7 @@ layout: default
           <div data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/woodterraceicon.svg" alt="Icon Holzterrasse" />
-              <p class="accordion-item-title">Holzterrassen</p>
+              <p id="holzterrassen" class="accordion-item-title">Holzterrassen</p>
             </div>
           </div>
         </div>
@@ -98,7 +100,7 @@ layout: default
           <div data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/cuticon.svg" alt="Icon Pflanzenschnitt" />
-              <p class="accordion-item-title">Gartenpflege & Gehölzschnitt</p>
+              <p id="gartenpflegeundgehoelzschnitt" class="accordion-item-title">Gartenpflege & Gehölzschnitt</p>
             </div>
           </div>
         </div>
@@ -118,7 +120,7 @@ layout: default
           <div data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/cutdownicon.svg" alt="Icon Fällen und Roden" />
-              <p class="accordion-item-title">Roden & Fällen</p>
+              <p id="rodenundfaellen" class="accordion-item-title">Roden & Fällen</p>
             </div>
           </div>
         </div>
@@ -137,7 +139,7 @@ layout: default
           <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/wateringicon.svg" alt="Icon Bewässerung" />
-              <p class="accordion-item-title">Technische Installationen</p>
+              <p id="technischeinstallationen" class="accordion-item-title">Technische Installationen</p>
             </div>
           </div>
         </div>
@@ -432,56 +434,54 @@ layout: default
 <div class="h-spacer"></div>
 
 <div class="dark-bg">
-  <div class="content-frame">
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
 
-    <div>
-      <div class="centered-container">
-        <h2 style="text-align: center">Terrassenneugestaltung aus keramischen Platten</h2>
-      </div>
-      <div class="h-spacer"></div>
-      <div class="h-spacer"></div>
-      <div class="h-spacer"></div>
-      <div class="flex-horizontal">
-        <div class="before-after-image-container">
-          <img
-            src="{{ site.baseurl }}/assets/images/garten/garten-referenz7.jpg"
-            alt="Bild einer Terrasse vor dem Bau"
-            class="default-border before-after-image"
-            loading="lazy"
-            data-target="#garten-carousel"
-            data-slide-to="0"
-          />
-          <div class="before-after-image-caption-left">
-            <p>Vorher</p>
-          </div>
-        </div>
-        <div class="before-after-image-container">
-          <img
-            src="{{ site.baseurl }}/assets/images/garten/garten-referenz8.jpg"
-            alt="Bild einer Terrasse nach dem Bau"
-            class="default-border before-after-image"
-            loading="lazy"
-            data-target="#garten-carousel"
-            data-slide-to="0"
-          />
-          <div class="before-after-image-caption-right">
-            <p>Nachher</p>
-          </div>
-        </div>
-      </div>
-      <div class="h-spacer"></div>
+  <div>
+    <div class="centered-container">
+      <h2 style="text-align: center">Terrassenneugestaltung aus keramischen Platten</h2>
     </div>
-
     <div class="h-spacer"></div>
     <div class="h-spacer"></div>
     <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
+    <div class="flex-horizontal">
+      <div class="before-after-image-container">
+        <img
+          src="{{ site.baseurl }}/assets/images/garten/garten-referenz7.jpg"
+          alt="Bild einer Terrasse vor dem Bau"
+          class="default-border before-after-image"
+          loading="lazy"
+          data-target="#garten-carousel"
+          data-slide-to="0"
+        />
+        <div class="before-after-image-caption-left">
+          <p>Vorher</p>
+        </div>
+      </div>
+      <div class="before-after-image-container">
+        <img
+          src="{{ site.baseurl }}/assets/images/garten/garten-referenz8.jpg"
+          alt="Bild einer Terrasse nach dem Bau"
+          class="default-border before-after-image"
+          loading="lazy"
+          data-target="#garten-carousel"
+          data-slide-to="0"
+        />
+        <div class="before-after-image-caption-right">
+          <p>Nachher</p>
+        </div>
+      </div>
+    </div>
     <div class="h-spacer"></div>
   </div>
+
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
 </div>
 
 <div class="h-spacer"></div>

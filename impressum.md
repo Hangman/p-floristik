@@ -6,7 +6,7 @@ head-image-text: "Rechtliches"
 head-image-style-class: "head-image-impressum"
 ---
 
-Peter und Elke Prein Floristik<br>
+Landschaftsbau Peter Prein<br>
 Auf dem Berge 38<br>
 45659 Recklinghausen<br>
 E-Mail: prein@prein.de<br>
@@ -16,7 +16,7 @@ Telefon: 02361/23876
 
 ### Verantwortlich für redaktionelle Inhalte
 
-Elke Prein
+Peter Prein
 <br>
 <br>
 

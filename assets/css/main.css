@@ -178,7 +178,7 @@ h3 {
 
 .fake_h3 {
   color: var(--color-heading);
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
   width: 100%;
@@ -272,7 +272,7 @@ summary {
 
 .content-frame {
   display: block;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
   word-wrap: break-word;
 }
@@ -501,7 +501,7 @@ summary {
 }
 
 .card-width {
-  width: 20rem;
+  width: 14rem;
 }
 
 .card-style {
@@ -511,7 +511,7 @@ summary {
 }
 
 .gallery-card {
-  width: 370px;
+  width: 310px;
   cursor: pointer;
 }
 
@@ -649,7 +649,7 @@ summary {
 }
 
 .before-after-image {
-  width: 500px;
+  width: 400px;
   height: auto;
 }
 
@@ -681,6 +681,100 @@ summary {
 }
 
 @media screen and (max-width: 830px) {
+  html,
+  body,
+  div,
+  span,
+  applet,
+  object,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  abbr,
+  acronym,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  dfn,
+  em,
+  ins,
+  kbd,
+  q,
+  s,
+  samp,
+  small,
+  strike,
+  strong,
+  sub,
+  sup,
+  tt,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  table,
+  caption,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  aside,
+  canvas,
+  details,
+  embed,
+  figure,
+  figcaption,
+  footer,
+  header,
+  hgroup,
+  menu,
+  nav,
+  output,
+  ruby,
+  section,
+  summary,
+  time,
+  mark,
+  audio,
+  video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0;
+    word-spacing: 1px;
+    font-size: 15px;
+    scroll-behavior: smooth;
+  }
+
   h1 {
     font-size: 45px;
   }
@@ -737,7 +831,7 @@ summary {
 
   .text-block {
     text-align: left;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     padding-left: 5%;
     padding-right: 5%;
@@ -747,7 +841,7 @@ summary {
 
   .text-block p {
     text-align: left;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     margin: auto;
   }

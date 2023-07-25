@@ -17,4 +17,5 @@ services:
     "Technische Arbeiten",
   ]
 services-grid-container: "big-grid-container"
+gallery-image-thumb-width: 
 ---

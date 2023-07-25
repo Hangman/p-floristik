@@ -20,21 +20,6 @@ layout: default
   <div class="centered-container text-block">
     <p>{{ page.news-text }}</p>
   </div>
-
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-
-  <div class="flex-horizontal">
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news1.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news2.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news3.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news4.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news5.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news6.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news7.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news8.jpg" alt="Bild eines Blumenkranzes" />
-    <img class="default-border small-image" src="{{ site.baseurl }}/assets/images/news9.jpg" alt="Bild eines Blumenkranzes" />
-  </div>
 </div>
 
 <div class="h-spacer"></div>
@@ -51,7 +36,22 @@ layout: default
   <div class="h-spacer"></div>
 
   <div class="content-frame">
+    <div class="centered-container">
+      <h2>Womit können wir Ihnen weiterhelfen?</h2>
+    </div>
+    <div class="h-spacer"></div>
+    <div class="h-spacer"></div>
+    <div class="h-spacer"></div>
+    <div class="h-spacer"></div>
+    <div class="h-spacer"></div>
     <div class="flex-horizontal">
+      <div class="card card-width card-style">
+        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card0-image }}" alt="Card image cap" />
+        <div class="card-body">
+          <a href="{{ site.baseurl }}/{{ page.card0-link }}" class="center-text fake_h3 stretched-link">{{ page.card0-title }}</a>
+        </div>
+      </div>
+
       <div class="card card-width card-style">
         <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card1-image }}" alt="Card image cap" />
         <div class="card-body">
@@ -86,6 +86,20 @@ layout: default
           <a href="{{ site.baseurl }}/{{ page.card5-link }}" class="center-text fake_h3 stretched-link">{{ page.card5-title }}</a>
         </div>
       </div>
+
+      <div class="card card-width card-style">
+        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card6-image }}" alt="Card image cap" />
+        <div class="card-body">
+          <a href="{{ site.baseurl }}/{{ page.card6-link }}" class="center-text fake_h3 stretched-link">{{ page.card6-title }}</a>
+        </div>
+      </div>
+
+      <div class="card card-width card-style">
+        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card7-image }}" alt="Card image cap" />
+        <div class="card-body">
+          <a href="{{ site.baseurl }}/{{ page.card7-link }}" class="center-text fake_h3 stretched-link">{{ page.card7-title }}</a>
+        </div>
+      </div>
     </div>
 
     <div class="h-spacer"></div>
@@ -94,87 +108,4 @@ layout: default
     <div class="h-spacer"></div>
     <div class="h-spacer"></div>
   </div>
-</div>
-
-<div class="opening-hours-container">
-  <div class="content-frame">
-    <div class="centered-container">
-      <div class="opening-hours-block">
-        <h3 id="oeffnungszeiten" class="center-text" style="color: #ffffff; padding-top: 10px">Öffnungszeiten</h3>
-        <hr class="grid-hr" />
-        <div class="grid-container">
-          <p class="grid-item-left">Montag</p>
-          <p class="grid-item-right">Geschlossen</p>
-          <p class="grid-item-left">Dienstag</p>
-          <p class="grid-item-right">09:30 - 13:00<br />14:30 - 17:00</p>
-          <p class="grid-item-left">Mittwoch</p>
-          <p class="grid-item-right">09:30 - 13:00<br />14:30 - 17:00</p>
-          <p class="grid-item-left">Donnerstag</p>
-          <p class="grid-item-right">09:30 - 13:00<br />14:30 - 17:00</p>
-          <p class="grid-item-left">Freitag</p>
-          <p class="grid-item-right">09:30 - 13:00<br />14:30 - 18:00</p>
-          <p class="grid-item-left">Samstag</p>
-          <p class="grid-item-right">10:00 - 13:00</p>
-          <p class="grid-item-left">Sonntag</p>
-          <p class="grid-item-right">Geschlossen</p>
-        </div>
-        <div style="min-height: 15px"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-
-<div class="content-frame">
-  <h1 id="kontakt-header" class="center-text">Kontakt</h1>
-  <hr />
-  <div class="flex-horizontal">
-    <div class="card card-style">
-      <div class="card-body">
-        <div style="display: flex; justify-content: center; align-items: center; align-content: center; height: 100%">
-          <div>
-            <p>Wir sind gut zu Fuß und mit dem Fahrrad über die Bahntrasse erreichbar:</p>
-            <img class="filter-blue" src="{{ site.baseurl }}/assets/images/map.svg" alt="map icon" style="padding-right: 5px" />
-            <i style="text-align: left">Auf dem Berge 38</i>
-            <p>45659 Recklinghausen</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card card-style">
-      <div class="card-body">
-        <div style="display: flex; justify-content: center">
-          <img class="filter-blue" src="{{ site.baseurl }}/assets/images/telephone.svg" alt="telephone icon" style="padding-right: 5px" />
-          <a href="tel:+49236123876">02361/23876</a>
-        </div>
-        <div style="display: flex; justify-content: center">
-          <img class="filter-blue" src="{{ site.baseurl }}/assets/images/envelope.svg" alt="email icon" style="padding-right: 5px" />
-          <a href="mailto:prein@prein.de">prein@prein.de</a>
-        </div>
-        <div class="social-media-button">
-          <a href="https://www.facebook.com/floristik.prein/" id="social-media-link1" target="_blank"
-            ><img src="{{ site.baseurl }}/assets/images/facebook.svg" alt="Facebook Icon" class="filter-blue" width="40" height="40"
-          /></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-
-  <div class="centered-container">{% include maps.html %}</div>
-
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
 </div>
