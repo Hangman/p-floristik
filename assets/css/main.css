@@ -13,7 +13,7 @@
   --color-box: #DAE8D5;
   --color-bg: #FFFFFF;
   --color-dark-bg: #ebebeb;
-  --default-border-radius: 4px;
+  --default-border-radius: 0.25rem;
 }
 
 @font-face {
@@ -147,8 +147,10 @@ ul li {
 }
 
 hr {
-  border: 1px solid var(--color-green);
-  background-color: var(--color-green);
+  border-radius: var(--default-border-radius);
+  border-top: 3px solid var(--color-green);
+  border-left:150px solid transparent;
+  border-right:150px solid transparent;
 }
 
 .tint-bg {
@@ -201,6 +203,15 @@ summary {
   color: var(--color-green);
 }
 
+.category-title {
+  color: var(--color-blue);
+  font-size: 22px;
+  border-radius: var(--default-border-radius);
+  border:2px solid var(--color-green);
+  border-left:150px solid transparent;
+  border-right:150px solid transparent;
+}
+
 .filter-blue {
   filter: invert(31%) sepia(37%) saturate(836%) hue-rotate(178deg) brightness(97%) contrast(95%);
 }
@@ -224,6 +235,13 @@ summary {
 
 .big-font {
   font-size: 22px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: var(--default-border-radius);
+  background-color: var(--color-box);
 }
 
 .phone-row {
@@ -307,31 +325,27 @@ summary {
   visibility: hidden;
 }
 
+.rounded-corners {
+  border-radius: var(--default-border-radius);
+}
+
 .opening-hours-container {
   background: url("{{ site.baseurl }}/assets/images/opening-hours-bg.jpeg") no-repeat;
   background-size: cover;
 }
 
-.opening-hours-block {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: left;
-  background-color: var(--color-transparent-block);
-  display: block;
-  border-radius: var(--default-border-radius);
+.thumbnail-image {
+  width: 250px;
+  height: 250px;
 }
 
-.opening-hours-block p {
-  color: var(--color-white);
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 100px;
-  row-gap: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+.flex-evenly-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: stretch;
 }
 
 .big-grid-container {
@@ -795,6 +809,19 @@ summary {
     border: 2px solid var(--color-green);
   }
 
+  .card-width {
+    width: 12rem;
+  }
+
+  .category-title {
+    color: var(--color-blue);
+    font-size: 22px;
+    border-radius: 0rem;
+    border:2px solid var(--color-green);
+    border-left:0px solid transparent;
+    border-right:0px solid transparent;
+  }
+
   .accordion-item-title {
     font-size: 18px;
   }
@@ -846,15 +873,7 @@ summary {
     margin: auto;
   }
 
-  .head-image-floristik {
-    height: 250px;
-  }
-
   .head-image-garten {
-    height: 250px;
-  }
-
-  .head-image-trauer {
     height: 250px;
   }
 
@@ -862,21 +881,9 @@ summary {
     height: 250px;
   }
 
-  .head-image-hochzeit {
-    height: 250px;
-  }
-
-  .head-image-team {
-    height: 250px;
-  }
-
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 50px;
-    row-gap: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+  .thumbnail-image {
+    width: 150px;
+    height: 150px;
   }
 
   .big-grid-container {

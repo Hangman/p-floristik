@@ -3,12 +3,8 @@ layout: default
 ---
 
 {% include home-carousel.html %}
-
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
 <div class="content-frame">
   <div class="block-container">
@@ -22,90 +18,103 @@ layout: default
   </div>
 </div>
 
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
 <div class="dark-bg">
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
 
   <div class="content-frame">
     <div class="centered-container">
-      <h2>Womit können wir Ihnen weiterhelfen?</h2>
+      <h2 class="center-text">Womit können wir Ihnen weiterhelfen?</h2>
     </div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
+    <!-- prettier ignore -->
+    {% include default-spacer.html %}
+
+    <div class="centered-container">
+      <p class="category-title">Garten- & Landschaftsbau</p>
+    </div>
     <div class="h-spacer"></div>
     <div class="h-spacer"></div>
     <div class="h-spacer"></div>
     <div class="flex-horizontal">
+      {% for card in page.garten_cards %}
       <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card0-image }}" alt="Card image cap" />
+        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ card.image }}" alt="Card image cap" />
         <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card0-link }}" class="center-text fake_h3 stretched-link">{{ page.card0-title }}</a>
+          <a href="{{ site.baseurl }}/{{ card.link }}" class="center-text fake_h3 stretched-link">{{ card.title }}</a>
         </div>
       </div>
+      {% endfor %}
+    </div>
+    {% include default-spacer.html %}
+    <div class="h-spacer"></div>
 
+    <div class="centered-container">
+      <p class="category-title">Friedhofsdienste</p>
+    </div>
+    <div class="h-spacer"></div>
+    <div class="h-spacer"></div>
+    <div class="h-spacer"></div>
+    <div class="flex-horizontal">
+      {% for card in page.friedhof_cards %}
       <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card1-image }}" alt="Card image cap" />
+        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ card.image }}" alt="Card image cap" />
         <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card1-link }}" class="center-text fake_h3 stretched-link">{{ page.card1-title }}</a>
+          <a href="{{ site.baseurl }}/{{ card.link }}" class="center-text fake_h3 stretched-link">{{ card.title }}</a>
         </div>
       </div>
+      {% endfor %}
+    </div>
+    <div class="h-spacer"></div>
 
-      <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card2-image }}" alt="Card image cap" />
-        <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card2-link }}" class="center-text fake_h3 stretched-link">{{ page.card2-title }}</a>
-        </div>
-      </div>
+    <!-- prettier ignore -->
+    {% include default-spacer.html %}
+  </div>
+</div>
 
-      <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card3-image }}" alt="Card image cap" />
-        <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card3-link }}" class="center-text fake_h3 stretched-link">{{ page.card3-title }}</a>
-        </div>
-      </div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
-      <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card4-image }}" alt="Card image cap" />
-        <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card4-link }}" class="center-text fake_h3 stretched-link">{{ page.card4-title }}</a>
-        </div>
-      </div>
-
-      <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card5-image }}" alt="Card image cap" />
-        <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card5-link }}" class="center-text fake_h3 stretched-link">{{ page.card5-title }}</a>
-        </div>
-      </div>
-
-      <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card6-image }}" alt="Card image cap" />
-        <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card6-link }}" class="center-text fake_h3 stretched-link">{{ page.card6-title }}</a>
-        </div>
-      </div>
-
-      <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ page.card7-image }}" alt="Card image cap" />
-        <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ page.card7-link }}" class="center-text fake_h3 stretched-link">{{ page.card7-title }}</a>
+<div class="content-frame">
+  <h1 id="kontakt-header" class="center-text">Kontakt</h1>
+  <hr />
+  <div class="contact-container">
+    <div class="card card-style">
+      <div class="card-body">
+        <div style="display: flex; justify-content: center; align-items: center; align-content: center; height: 100%">
+          <div>
+            <img class="filter-blue" src="{{ site.baseurl }}/assets/images/map.svg" alt="map icon" style="padding-right: 5px" />
+            <i style="text-align: left">Auf dem Berge 38</i>
+            <p>45659 Recklinghausen</p>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
+    <div class="card card-style">
+      <div class="card-body">
+        <div style="display: flex; justify-content: left">
+          <img class="filter-blue" src="{{ site.baseurl }}/assets/images/telephone.svg" alt="telephone icon" style="padding-right: 5px" />
+          <a href="tel:{{ site.phonenumber }}">{{ site.phonestring }}</a>
+        </div>
+        <div style="display: flex; justify-content: left">
+          <img class="filter-blue" src="{{ site.baseurl }}/assets/images/envelope.svg" alt="email icon" style="padding-right: 5px" />
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+
+  <div class="centered-container">{% include maps.html %}</div>
+
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
+  <div class="h-spacer"></div>
 </div>

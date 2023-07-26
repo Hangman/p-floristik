@@ -12,10 +12,11 @@ von einem Profi an die Hand nehmen, der seit über 30 Jahren mit Herzblut und Le
 "
 services:
   [
-    "Planung & Gestaltung",
+    "Planung",
+    "Gestaltung",
     "Professionelle Gartenpflege",
     "Technische Arbeiten",
   ]
-services-grid-container: "big-grid-container"
+services-grid-container: "small-grid-container"
 gallery-image-thumb-width: 
 ---

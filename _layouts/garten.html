@@ -3,29 +3,24 @@ layout: default
 ---
 
 {% include subcategory.html %}
-<!-- -->
+<!-- prettier ignore -->
 {% include garten-carousel.html %}
 
-<script src="{{ site.baseurl }}/assets/js/garten.js"></script>
-
 <div class="dark-bg">
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
   <div class="content-frame">
     <div class="accordion" id="accordionGarten">
       <div class="card">
         <div class="card-header accordion-header" id="headingOne">
-          <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          <div data-toggle="collapse" data-target="#neuundumgestaltung" aria-expanded="true" aria-controls="neuundumgestaltung">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/buildicon.svg" alt="Icon Bagger" />
-              <p id="neuundumgestaltung" class="accordion-item-title">Neu- und Umgestaltung</p>
+              <p class="accordion-item-title">Neu- und Umgestaltung</p>
             </div>
           </div>
         </div>
-        <div id="collapseOne" class="collapse show" data-parent="#accordionGarten">
+        <div id="neuundumgestaltung" class="collapse show" data-parent="#accordionGarten">
           <div class="card-body">
             <p>
               Von der Planung bis zur Fertigstellung bekommen Sie bei uns alles aus einer Hand. Eine sorgfältige Planung Ihres Vorhabens ist der Grundstein für
@@ -33,98 +28,167 @@ layout: default
               Gemeinsam mit Ihnen gestalten wir genau den Garten, der zu Ihnen und Ihrer Lebenssituation passt. Ob naturnaher Garten, Spielgarten, pflegeleicht,
               geometrisch oder mediterran – folgen Sie Ihren Wünschen!
             </p>
+            <hr />
+            <div class="flex-evenly-container">
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/planung-thumb-1.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/planung-thumb-2.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div class="card">
         <div class="card-header accordion-header" id="headingTwo">
-          <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <div data-toggle="collapse" data-target="#wasserimgarten" aria-expanded="false" aria-controls="wasserimgarten">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/pondicon.svg" alt="Icon Teich" />
-              <p id="wasserimgarten" class="accordion-item-title">Wasser im Garten</p>
+              <p class="accordion-item-title">Wasser im Garten</p>
             </div>
           </div>
         </div>
-        <div id="collapseTwo" class="collapse" data-parent="#accordionGarten">
+        <div id="wasserimgarten" class="collapse" data-parent="#accordionGarten">
           <div class="card-body">
             <p>
               Gerne legen wir Quellbereiche oder Teichanlagen für Sie an und nehmen zuvor auch die notwendigen Erdarbeiten hierfür vor. Auch bei der
               Umgestaltung vorhandener Wasserbereiche stehen wir gern zu Ihrer Verfügung. Plätschernde Brunnen und Wasserläufe sorgen für ein zusätzliches
               Wellnessfeeling.
             </p>
+            <hr />
+            <div class="flex-evenly-container">
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/wasser-thumb-1.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/wasser-thumb-2.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/wasser-thumb-3.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div class="card">
         <div class="card-header accordion-header" id="headingThree">
-          <div data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <div data-toggle="collapse" data-target="#pflasterarbeitenundsteinterrassen" aria-expanded="false" aria-controls="pflasterarbeitenundsteinterrassen">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/terraceicon.svg" alt="Icon Terrasse" />
-              <p id="pflasterarbeitenundsteinterrassen" class="accordion-item-title">Pflasterarbeiten und Steinterrassen</p>
+              <p class="accordion-item-title">Pflasterarbeiten und Steinterrassen</p>
             </div>
           </div>
         </div>
-        <div id="collapseThree" class="collapse" data-parent="#accordionGarten">
+        <div id="pflasterarbeitenundsteinterrassen" class="collapse" data-parent="#accordionGarten">
           <div class="card-body">
             <p>
               Wir pflastern Ihren Außenbereich oder arbeiten mit Beton, Naturstein oder keramischen Platten. Entdecken Sie die vielseitigen Möglichkeiten, die
               zu Ihrem Haus, Ihrer Einfahrt oder Ihrem Lieblingssitzplatz passen. Dabei liegen Form, Material und Größe in Ihrer Hand.
             </p>
+            <hr />
+            <div class="flex-evenly-container">
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/stein-thumb-1.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/stein-thumb-2.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div class="card">
         <div class="card-header accordion-header" id="headingFour">
-          <div data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          <div data-toggle="collapse" data-target="#holzterrassen" aria-expanded="false" aria-controls="holzterrassen">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/woodterraceicon.svg" alt="Icon Holzterrasse" />
-              <p id="holzterrassen" class="accordion-item-title">Holzterrassen</p>
+              <p class="accordion-item-title">Holzterrassen</p>
             </div>
           </div>
         </div>
-        <div id="collapseFour" class="collapse" data-parent="#accordionGarten">
+        <div id="holzterrassen" class="collapse" data-parent="#accordionGarten">
           <div class="card-body">
             <p>
               Gerne gestalten wir für Sie eine neue Terrasse, einen Sitzplatz oder eine Poolumrandung aus hochwertig verarbeitetem Holz, z. B. mit einem
               unsichtbaren Befestigungssystem. Holz fügt sich ganz natürlich in Ihren Garten ein und trägt durch seine warme Optik zum Wohlfühlfaktor bei.
             </p>
+            <hr />
+            <div class="flex-evenly-container">
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/holz-thumb-1.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div class="card">
         <div class="card-header accordion-header" id="headingFive">
-          <div data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          <div data-toggle="collapse" data-target="#gartenpflegeundgehoelzschnitt" aria-expanded="false" aria-controls="gartenpflegeundgehoelzschnitt">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/cuticon.svg" alt="Icon Pflanzenschnitt" />
-              <p id="gartenpflegeundgehoelzschnitt" class="accordion-item-title">Gartenpflege & Gehölzschnitt</p>
+              <p class="accordion-item-title">Gartenpflege & Gehölzschnitt</p>
             </div>
           </div>
         </div>
-        <div id="collapseFive" class="collapse" data-parent="#accordionGarten">
+        <div id="gartenpflegeundgehoelzschnitt" class="collapse" data-parent="#accordionGarten">
           <div class="card-body">
             <p>
               Ihren Garten und Ihre Pflanzen pflegen und beschneiden wir, wie Sie es wünschen, egal ob Heckenschnitt, Rasenschnitt, Vertikutieren, Umsetzen
               Ihrer Pflanzen oder Formschnitt nach Ihren Vorstellungen. So erhalten Sie Ihren Garten und steigern seinen Wert – oder Sie haben am Wochenende
               einfach nur frei.
             </p>
+            <hr />
+            <div class="flex-evenly-container">
+              <img
+                class="rounded-corners thumbnail-image"
+                src="{{ site.baseurl }}/assets/images/garten/schnitt-thumb-1.jpg"
+                alt="Bild eines Gartens"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </div>
 
       <div class="card">
         <div class="card-header accordion-header" id="headingSix">
-          <div data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          <div data-toggle="collapse" data-target="#rodenundfaellen" aria-expanded="false" aria-controls="rodenundfaellen">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/cutdownicon.svg" alt="Icon Fällen und Roden" />
-              <p id="rodenundfaellen" class="accordion-item-title">Roden & Fällen</p>
+              <p class="accordion-item-title">Roden & Fällen</p>
             </div>
           </div>
         </div>
-        <div id="collapseSix" class="collapse" data-parent="#accordionGarten">
+        <div id="rodenundfaellen" class="collapse" data-parent="#accordionGarten">
           <div class="card-body">
             <p>
               Wir entfernen alte und überständige oder kranke Pflanzen (bester Zeitraum Ende September bis Ende Februar). So können neue Räume entstehen, um
@@ -136,14 +200,14 @@ layout: default
 
       <div class="card">
         <div class="card-header accordion-header" id="headingSeven">
-          <div data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+          <div data-toggle="collapse" data-target="#technischeinstallationen" aria-expanded="false" aria-controls="technischeinstallationen">
             <div class="accordion-container">
               <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/garten/wateringicon.svg" alt="Icon Bewässerung" />
-              <p id="technischeinstallationen" class="accordion-item-title">Technische Installationen</p>
+              <p class="accordion-item-title">Technische Installationen</p>
             </div>
           </div>
         </div>
-        <div id="collapseSeven" class="collapse" data-parent="#accordionGarten">
+        <div id="technischeinstallationen" class="collapse" data-parent="#accordionGarten">
           <div class="card-body">
             <p>
               Wir installieren teil- bis vollautomatische Bewässerungssysteme, setzen Lichtakzente durch Beleuchtung und richten Ihren Mähroboter ein. Computer-
@@ -155,17 +219,11 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
 </div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
 <div class="content-frame">
   <div class="block-container">
@@ -263,11 +321,8 @@ layout: default
     </div>
   </div>
 
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
 </div>
 
 <div class="dark-bg">
@@ -326,18 +381,12 @@ layout: default
     </div>
   </div>
 
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
 </div>
 
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
 <div class="content-frame">
   <div class="flex-horizontal">
@@ -427,11 +476,8 @@ layout: default
   </div>
 </div>
 
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
 <div class="dark-bg">
   <div class="h-spacer"></div>
@@ -477,18 +523,12 @@ layout: default
     <div class="h-spacer"></div>
   </div>
 
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
 </div>
 
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
 <div class="content-frame">
   <div class="flex-horizontal">
@@ -536,8 +576,5 @@ layout: default
   </div>
 </div>
 
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}

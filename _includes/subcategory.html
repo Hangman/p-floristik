@@ -1,12 +1,11 @@
+<script src="{{ site.baseurl }}/assets/js/accordion.js?v=1.0"></script>
+
 {% include head-image.html %}
 
 <!-- prettier-ignore -->
 {% if page.services %}
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
 
 <div class="content-frame">
   <div class="card card-style">
@@ -29,32 +28,25 @@
 {% endif %}
 
 <div class="content-frame">
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
 
   <!-- prettier-ignore -->
   {{% if page.intro-text %}}
   <div class="centered-container text-block">
     <p>{{ page.intro-text }}</p>
   </div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
+  <!-- prettier ignore -->
   {{% endif %}}
 
   <!-- prettier-ignore -->
   {% if page.important-note %}
   <p class="important-note">{{ page.important-note }}</p>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
+  <!-- prettier ignore -->
+  {% include default-spacer.html %}
+  <!-- prettier ignore -->
   {% endif %}
 </div>
 
@@ -79,9 +71,7 @@
   </div>
 </div>
 
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
-<div class="h-spacer"></div>
+<!-- prettier ignore -->
+{% include default-spacer.html %}
+<!-- prettier ignore -->
 {% endif %}

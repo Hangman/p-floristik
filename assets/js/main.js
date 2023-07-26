@@ -20,7 +20,7 @@ function changeCss () {
 
     if (!isMobile) {
         if (this.scrollY > 70) {
-            container.style.borderBottom = "3px solid #3C841F30";
+            container.style.borderBottom = "6px solid #3C841F30";
             logo.style.width = newLogoWidth;
             logo.style.height = newLogoHeight;
             link1.style.fontSize = newFontSize;
