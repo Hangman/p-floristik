@@ -3,85 +3,10 @@ layout: default
 ---
 
 {% include subcategory.html %}
-<!-- -->
 
 <div class="dark-bg">
-  <!-- prettier ignore -->
   {% include default-spacer.html %}
-  <div class="content-frame">
-    <div class="accordion" id="accordionFriedhof">
-      <div class="card">
-        <div class="card-header accordion-header" id="headingOne">
-          <div data-toggle="collapse" data-target="#grabgestaltung" aria-expanded="true" aria-controls="grabgestaltung">
-            <div class="accordion-container">
-              <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/friedhof/graveicon.svg" alt="Icon Grab" />
-              <p class="accordion-item-title">Grabgestaltung</p>
-            </div>
-          </div>
-        </div>
-        <div id="grabgestaltung" class="collapse show" data-parent="#accordionFriedhof">
-          <div class="card-body">
-            <p>
-              BEISPIELTEXT - DIESER TEXT WURDE DURCH EINE KI GENERIERT UND MUSS NOCH ERSETZT WERDEN<br />
-              Unsere Grabgestaltung ist eine einfühlsame und individuelle Dienstleistung, die es uns ermöglicht, eine einzigartige und würdevolle Ruhestätte für
-              Ihre geliebten Verstorbenen zu schaffen. Mit einem sensiblen Gespür für Ihre persönlichen Wünsche und Bedürfnisse gestalten wir das Grabmal und
-              das umgebende Areal mit ästhetischer Raffinesse. Von der Auswahl hochwertiger Materialien bis hin zur sorgfältigen Anordnung von Pflanzen und
-              Blumen, lassen Sie uns gemeinsam einen Ort erschaffen, der die Persönlichkeit und das Leben des Verstorbenen liebevoll widerspiegelt. Unser
-              erfahrenes Team steht Ihnen dabei einfühlsam zur Seite und setzt alles daran, Ihnen einen Ort der Erinnerung zu schaffen, an dem Sie Trost und
-              Halt finden können.
-            </p>
-            <hr />
-            <div class="flex-evenly-container">
-              <img
-                class="rounded-corners thumbnail-image"
-                src="{{ site.baseurl }}/assets/images/friedhof/gestaltung-thumb-1.jpg"
-                alt="Bild eines Gartens"
-                loading="lazy"
-              />
-              <img
-                class="rounded-corners thumbnail-image"
-                src="{{ site.baseurl }}/assets/images/friedhof/gestaltung-thumb-2.jpg"
-                alt="Bild eines Gartens"
-                loading="lazy"
-              />
-              <img
-                class="rounded-corners thumbnail-image"
-                src="{{ site.baseurl }}/assets/images/friedhof/gestaltung-thumb-3.jpg"
-                alt="Bild eines Gartens"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-header accordion-header" id="headingTwo">
-          <div data-toggle="collapse" data-target="#grabpflege" aria-expanded="false" aria-controls="grabpflege">
-            <div class="accordion-container">
-              <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/friedhof/gravewatericon.svg" alt="Icon Teich" />
-              <p class="accordion-item-title">Grabpflege</p>
-            </div>
-          </div>
-        </div>
-        <div id="grabpflege" class="collapse" data-parent="#accordionFriedhof">
-          <div class="card-body">
-            <p>
-              BEISPIELTEXT - DIESER TEXT WURDE DURCH EINE KI GENERIERT UND MUSS NOCH ERSETZT WERDEN<br />
-              In Zeiten der Trauer und des Abschieds möchten wir Ihnen die Last der Grabpflege abnehmen, damit Sie sich auf das Wesentliche konzentrieren
-              können: die liebevolle Erinnerung an Ihre Verstorbenen. Unsere Grabpflege ist eine verlässliche und professionelle Dienstleistung, die
-              sicherstellt, dass das Grab Ihres Angehörigen stets gepflegt und in einem würdigen Zustand ist. Unser engagiertes Team aus erfahrenen Gärtnern und
-              Landschaftspflegern übernimmt die regelmäßige Pflege von Grünanlagen, Pflanzen und Grabmalen. Von der Bewässerung und Düngung bis hin zur
-              fachgerechten Schnittarbeit - wir kümmern uns liebevoll um jedes Detail. Vertrauen Sie auf unsere Expertise und Hingabe, um den Friedhofsort Ihrer
-              Lieben stets in einem gepflegten und ansprechenden Zustand zu wissen.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- prettier ignore -->
+  <div class="content-frame">{% include accordion.html %}</div>
   {% include default-spacer.html %}
 </div>
-<!-- prettier ignore -->
 {% include default-spacer.html %}

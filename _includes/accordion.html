@@ -1,0 +1,32 @@
+<div class="accordion" id="accordionId">
+  {% for item in page.accordion-items %}
+  <div class="card">
+    <div class="card-header accordion-header">
+      <div data-toggle="collapse" data-target="{{ item.collapse-id-anchor }}" aria-expanded="false" aria-controls="{{ item.collapse-id }}">
+        <div class="accordion-container">
+          <img class="accordion-image filter-blue" src="{{ site.baseurl }}/assets/images/{{ page.accordion-image-subfolder }}/{{ item.icon }}" alt="Icon" />
+          <p class="accordion-item-title">{{ item.title }}</p>
+        </div>
+      </div>
+    </div>
+    <div id="{{ item.collapse-id }}" class="collapse" data-parent="#accordionId">
+      <div class="card-body">
+        <p>{{ item.text }}</p>
+        {% if item.thumbnails.size > 0 %}
+        <hr />
+        {% endif %}
+        <div class="flex-evenly-container">
+          {% for thumbnail in item.thumbnails %}
+          <img
+            class="rounded-corners thumbnail-image"
+            src="{{ site.baseurl }}/assets/images/{{ page.accordion-image-subfolder }}/{{ thumbnail }}"
+            alt="Bild eines Gartens"
+            loading="lazy"
+          />
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
