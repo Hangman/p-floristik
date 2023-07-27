@@ -809,6 +809,10 @@ summary {
     border: 2px solid var(--color-green);
   }
 
+  .flex-horizontal {
+    gap: 15px;
+  }
+
   .card-width {
     width: 12rem;
   }
@@ -860,8 +864,8 @@ summary {
     text-align: left;
     font-size: 15px;
     font-weight: 500;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
     margin-left: 0%;
     margin-right: 0%;
   }
