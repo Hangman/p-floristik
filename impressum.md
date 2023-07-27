@@ -9,8 +9,8 @@ head-image-style-class: "head-image-impressum"
 Landschaftsbau Peter Prein<br>
 Auf dem Berge 38<br>
 45659 Recklinghausen<br>
-E-Mail: prein@prein.de<br>
-Telefon: 02361/23876
+E-Mail: {{ site.email }}<br>
+Telefon: {{ site.phonenumber }}
 <br>
 <br>
 
