@@ -17,29 +17,28 @@ layout: default
     <p>{{ page.news-text }}</p>
   </div>
 </div>
-
-<!-- prettier ignore -->
 {% include default-spacer.html %}
 
+<!-- prettier ignore -->
+{% if page.navigation-overview %} {% if page.navigation-overview.size > 0 %}
 <div class="dark-bg">
-  <!-- prettier ignore -->
   {% include default-spacer.html %}
-
   <div class="content-frame">
     <div class="centered-container">
       <h2 class="center-text">Womit können wir Ihnen weiterhelfen?</h2>
     </div>
-    <!-- prettier ignore -->
     {% include default-spacer.html %}
 
+    <!-- prettier ignore -->
+    {% for collection in page.navigation-overview %}
     <div class="centered-container">
-      <p class="category-title">Garten- & Landschaftsbau</p>
+      <p class="category-title">{{ collection.title }}</p>
     </div>
     <div class="h-spacer"></div>
     <div class="h-spacer"></div>
     <div class="h-spacer"></div>
     <div class="flex-horizontal">
-      {% for card in page.garten_cards %}
+      {% for card in collection.links %}
       <div class="card card-width card-style">
         <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ card.image }}" alt="Card image cap" />
         <div class="card-body">
@@ -50,71 +49,12 @@ layout: default
     </div>
     {% include default-spacer.html %}
     <div class="h-spacer"></div>
-
-    <div class="centered-container">
-      <p class="category-title">Friedhofsdienste</p>
-    </div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
-    <div class="h-spacer"></div>
-    <div class="flex-horizontal">
-      {% for card in page.friedhof_cards %}
-      <div class="card card-width card-style">
-        <img class="card-img-top" src="{{ site.baseurl }}/assets/images/home/{{ card.image }}" alt="Card image cap" />
-        <div class="card-body">
-          <a href="{{ site.baseurl }}/{{ card.link }}" class="center-text fake_h3 stretched-link">{{ card.title }}</a>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="h-spacer"></div>
-
-    <!-- prettier ignore -->
-    {% include default-spacer.html %}
+    {% endfor %}
   </div>
 </div>
+{% include default-spacer.html %}
+<!-- prettier ignore -->
+{% endif %} {% endif %}
 
 <!-- prettier ignore -->
-{% include default-spacer.html %}
-
-<div class="content-frame">
-  <h1 id="kontakt-header" class="center-text">Kontakt</h1>
-  <hr />
-  <div class="contact-container">
-    <div class="card card-style">
-      <div class="card-body">
-        <div style="display: flex; justify-content: center; align-items: center; align-content: center; height: 100%">
-          <div>
-            <img class="filter-blue" src="{{ site.baseurl }}/assets/images/map.svg" alt="map icon" style="padding-right: 5px" />
-            <i style="text-align: left">Auf dem Berge 38</i>
-            <p>45659 Recklinghausen</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="card card-style">
-      <div class="card-body">
-        <div style="display: flex; justify-content: left">
-          <img class="filter-blue" src="{{ site.baseurl }}/assets/images/telephone.svg" alt="telephone icon" style="padding-right: 5px" />
-          <a href="tel:{{ site.phonenumber }}">{{ site.phonestring }}</a>
-        </div>
-        <div style="display: flex; justify-content: left">
-          <img class="filter-blue" src="{{ site.baseurl }}/assets/images/envelope.svg" alt="email icon" style="padding-right: 5px" />
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-
-  <div class="centered-container">{% include maps.html %}</div>
-
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-  <div class="h-spacer"></div>
-</div>
+{% include contact.html %}
