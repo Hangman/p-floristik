@@ -74,5 +74,5 @@ accordion-items:
     collapse-id: "technischeinstallationen"
     collapse-id-anchor: "#technischeinstallationen"
     icon: "wateringicon.svg"
-    thumbnails: []
+    thumbnails: ["licht-thumb-1.jpg"]
 ---
